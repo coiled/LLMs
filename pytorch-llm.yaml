@@ -1,0 +1,25 @@
+name: pytorch-llm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python
+  - dask
+  - coiled
+  - ipykernel
+  - ipython
+  - dask-labextension
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - pynvml
+  - matplotlib
+  - transformers
+  - accelerate
+  - pip
+  - pynvml
+  - pip:
+    - peft
+    - trl
+    - bitsandbytes
