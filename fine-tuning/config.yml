@@ -9,7 +9,7 @@ mixed_precision: bf16
 num_machines: 1
 num_processes: 1
 rdzv_backend: static
-same_network: true
+same_network: false
 use_cpu: false
 
 ## For FSDP -- incompatible with 4 or 8 bit quantization
